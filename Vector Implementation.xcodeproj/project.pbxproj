@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4340FD671B8919EA00DDB068 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4340FD661B8919EA00DDB068 /* main.c */; };
+		4386622E1B891A6600637D8D /* hashset.c in Sources */ = {isa = PBXBuildFile; fileRef = 438662251B891A6600637D8D /* hashset.c */; };
+		4386622F1B891A6600637D8D /* hashsettest.c in Sources */ = {isa = PBXBuildFile; fileRef = 438662271B891A6600637D8D /* hashsettest.c */; };
+		438662301B891A6600637D8D /* streamtokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 438662281B891A6600637D8D /* streamtokenizer.c */; };
+		438662311B891A6600637D8D /* thesaurus-lookup.c in Sources */ = {isa = PBXBuildFile; fileRef = 4386622A1B891A6600637D8D /* thesaurus-lookup.c */; };
+		438662321B891A6600637D8D /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 4386622B1B891A6600637D8D /* vector.c */; };
+		438662331B891A6600637D8D /* vectortest.c in Sources */ = {isa = PBXBuildFile; fileRef = 4386622D1B891A6600637D8D /* vectortest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,16 @@
 
 /* Begin PBXFileReference section */
 		4340FD631B8919EA00DDB068 /* Vector Implementation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Vector Implementation"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4340FD661B8919EA00DDB068 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		438662241B891A6600637D8D /* bool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bool.h; sourceTree = SOURCE_ROOT; };
+		438662251B891A6600637D8D /* hashset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashset.c; sourceTree = SOURCE_ROOT; };
+		438662261B891A6600637D8D /* hashset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashset.h; sourceTree = SOURCE_ROOT; };
+		438662271B891A6600637D8D /* hashsettest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashsettest.c; sourceTree = SOURCE_ROOT; };
+		438662281B891A6600637D8D /* streamtokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = streamtokenizer.c; sourceTree = SOURCE_ROOT; };
+		438662291B891A6600637D8D /* streamtokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streamtokenizer.h; sourceTree = SOURCE_ROOT; };
+		4386622A1B891A6600637D8D /* thesaurus-lookup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "thesaurus-lookup.c"; sourceTree = SOURCE_ROOT; };
+		4386622B1B891A6600637D8D /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vector.c; sourceTree = SOURCE_ROOT; };
+		4386622C1B891A6600637D8D /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = SOURCE_ROOT; };
+		4386622D1B891A6600637D8D /* vectortest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vectortest.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,16 @@
 		4340FD651B8919EA00DDB068 /* Vector Implementation */ = {
 			isa = PBXGroup;
 			children = (
-				4340FD661B8919EA00DDB068 /* main.c */,
+				438662241B891A6600637D8D /* bool.h */,
+				438662251B891A6600637D8D /* hashset.c */,
+				438662261B891A6600637D8D /* hashset.h */,
+				438662271B891A6600637D8D /* hashsettest.c */,
+				438662281B891A6600637D8D /* streamtokenizer.c */,
+				438662291B891A6600637D8D /* streamtokenizer.h */,
+				4386622A1B891A6600637D8D /* thesaurus-lookup.c */,
+				4386622B1B891A6600637D8D /* vector.c */,
+				4386622C1B891A6600637D8D /* vector.h */,
+				4386622D1B891A6600637D8D /* vectortest.c */,
 			);
 			path = "Vector Implementation";
 			sourceTree = "<group>";
@@ -118,7 +141,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4340FD671B8919EA00DDB068 /* main.c in Sources */,
+				4386622F1B891A6600637D8D /* hashsettest.c in Sources */,
+				438662301B891A6600637D8D /* streamtokenizer.c in Sources */,
+				438662331B891A6600637D8D /* vectortest.c in Sources */,
+				438662311B891A6600637D8D /* thesaurus-lookup.c in Sources */,
+				438662321B891A6600637D8D /* vector.c in Sources */,
+				4386622E1B891A6600637D8D /* hashset.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +263,7 @@
 				4340FD6C1B8919EA00DDB068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
